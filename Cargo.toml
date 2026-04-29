@@ -1,0 +1,14 @@
+[package]
+name = "s19viewer"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "s19parser"
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "s19viewer"
+path = "src/main.rs"
+
+[dependencies]
